@@ -68,6 +68,96 @@
          "patterns": [],
          "responses": ["Loading hospital details"],
          "context": [""]
-        }
+        },
+        {
+        "tag": "symptoms",
+        "patterns": [
+                "What are the symptoms of diabetes?",
+                "How can I tell if I have a cold?",
+                "What are the signs of high blood pressure?",
+                "Tell me about the symptoms of anxiety",
+                "What should I look for in flu symptoms?"
+        ],
+        "responses": [
+                "Common symptoms of diabetes include increased thirst, frequent urination, and fatigue.",
+                "Colds typically cause sneezing, coughing, and a runny nose.",
+                "High blood pressure can cause headaches, shortness of breath, and nosebleeds.",
+                "Symptoms of anxiety include excessive worrying, restlessness, and fatigue.",
+                "Flu symptoms usually include fever, chills, and body aches."
+        ],
+        "context": [""]
+        },
+        {
+        "tag": "medication_info",
+        "patterns": [
+                "What is ibuprofen used for?",
+                "Tell me about aspirin.",
+                "What are the side effects of metformin?",
+                "Is it safe to take Tylenol with alcohol?",
+                "How should I take amoxicillin?"
+        ],
+        "responses": [
+                "Ibuprofen is commonly used to relieve pain and reduce inflammation.",
+                "Aspirin is used to reduce fever, pain, and inflammation; it can also help prevent heart attacks.",
+                "Common side effects of metformin include nausea, vomiting, and stomach upset.",
+                "It is generally advised to avoid alcohol while taking Tylenol due to the risk of liver damage.",
+                "Amoxicillin should be taken as prescribed, usually with a full glass of water."
+        ],
+        "context": [""]
+        },
+        {
+        "tag": "nutrition",
+        "patterns": [
+                "What are the benefits of a balanced diet?",
+                "How much water should I drink daily?",
+                "What foods are high in protein?",
+                "Tell me about the Mediterranean diet.",
+                "What vitamins do I need for better health?"
+        ],
+        "responses": [
+                "A balanced diet provides essential nutrients your body needs to function effectively.",
+                "It is recommended to drink about 8-10 cups of water daily, depending on activity level.",
+                "Foods high in protein include chicken, fish, beans, and nuts.",
+                "The Mediterranean diet emphasizes fruits, vegetables, whole grains, and healthy fats.",
+                "Essential vitamins for better health include A, C, D, E, and the B vitamins."
+        ],
+        "context": [""]
+        },
+        {
+        "tag": "mental_health",
+        "patterns": [
+                "How can I improve my mental health?",
+                "What are signs of depression?",
+                "Tell me about stress management techniques.",
+                "What should I do if I'm feeling anxious?",
+                "How to cope with loneliness?"
+        ],
+        "responses": [
+                "Improving mental health can include exercise, therapy, and connecting with others.",
+                "Signs of depression may include persistent sadness, loss of interest, and fatigue.",
+                "Stress management techniques include meditation, deep breathing exercises, and physical activity.",
+                "If you're feeling anxious, consider talking to a mental health professional or practicing relaxation techniques.",
+                "Coping with loneliness can involve reaching out to friends, joining clubs, or volunteering."
+        ],
+        "context": [""]
+        },
+        {
+        "tag": "exercise",
+        "patterns": [
+                "What are the benefits of regular exercise?",
+                "How often should I work out?",
+                "What exercises are good for weight loss?",
+                "Can you suggest a beginner workout routine?",
+                "How do I stay motivated to exercise?"
+        ],
+        "responses": [
+                "Regular exercise can improve cardiovascular health, strengthen muscles, and boost mood.",
+                "It is generally recommended to aim for at least 150 minutes of moderate exercise each week.",
+                "Good exercises for weight loss include cardio activities like running, cycling, and swimming.",
+                "A beginner workout routine could include brisk walking, bodyweight exercises, and stretching.",
+                "To stay motivated, set realistic goals, track progress, and find a workout buddy."
+        ],
+        "context": [""]
+        }        
    ]
 }
