@@ -56,10 +56,21 @@ The `intents.json` file contains intents in the following structure:
 ```json
 {
     "intents": [
-        {
-            "tag": "greeting",
-            "patterns": ["Hi", "Hello", "How are you?"],
-            "responses": ["Hello!", "Hi, how can I help you?", "Hey there!"]
+        {"tag": "medication_info",
+        "patterns": [
+                "What is ibuprofen used for?",
+                "Tell me about aspirin.",
+                "What are the side effects of metformin?",
+                "Is it safe to take Tylenol with alcohol?",
+                "How should I take amoxicillin?"
+        ],
+        "responses": [
+                "Ibuprofen is commonly used to relieve pain and reduce inflammation.",
+                "Aspirin is used to reduce fever, pain, and inflammation; it can also help prevent heart attacks.",
+                "Common side effects of metformin include nausea, vomiting, and stomach upset.",
+                "It is generally advised to avoid alcohol while taking Tylenol due to the risk of liver damage.",
+                "Amoxicillin should be taken as prescribed, usually with a full glass of water."
+        ]
         },
         ...
     ]
